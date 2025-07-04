@@ -12,12 +12,12 @@ public class App1 {
         System.out.print("inserire la prima parola ");
 
         String firstWord = scan.nextLine();
-        System.out.println("la prima parola inserita è " + firstWord);
+        //System.out.println("la prima parola inserita è " + firstWord);
 
         System.out.print("inserire la seconda parola ");
 
         String secondWord = scan.nextLine();
-        System.out.println("la seconda parola inserita è " + secondWord);
+        //System.out.println("la seconda parola inserita è " + secondWord);
 
         if (firstWord.length() < secondWord.length()) {
             System.out.println("la parola " + firstWord + " è più corta di " + secondWord);

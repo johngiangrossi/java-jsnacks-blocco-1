@@ -10,15 +10,15 @@ public class App {
         */
 
         Scanner scan = new Scanner(System.in);
-        System.out.print("inserire il primo numero ");
+        System.out.print("inserire il primo numero intero ");
 
         int firstNumber = scan.nextInt();
-        System.out.println("il primo numero inserito è " + firstNumber);
+        //System.out.println("il primo numero inserito è " + firstNumber);
 
-        System.out.print("inserire il secondo numero ");
+        System.out.print("inserire il secondo numero intero ");
 
         int secondNumber = scan.nextInt();
-        System.out.println("il secondo numero inserito è " + secondNumber);
+        //System.out.println("il secondo numero inserito è " + secondNumber);
 
         if (firstNumber > secondNumber) {
             System.out.println("il numero " + firstNumber + " è maggiore");
